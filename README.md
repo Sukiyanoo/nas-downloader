@@ -41,9 +41,13 @@
 ## 🛠️ Prérequis
 
 ✅ Serveur Debian 12 (VM/conteneur)
-✅ Apache2 + PHP 7.4+
+
+✅ Apache2 + PHP 8+
+
 ✅ Modules PHP : json, curl
+
 ✅ Wget + outils NFS/SMB
+
 ✅ Jellyfin avec API activée
 
 ## 🚀 Installation
