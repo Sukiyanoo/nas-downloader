@@ -75,22 +75,17 @@ text
 <div align="center">
   <h3>📜 Structure des fichiers</h3>
   <pre>
-📦 root
+📦 /var/www/html
 ├── 📄 index.php    # Interface utilisateur
 ├── 📄 download.php # Core du système
 └── 📄 style.css    # Styles CSS
   </pre>
 </div>
 
-## 📌 Notes techniques
-// Exemple de détection série/film
-$target_dir = preg_match('/S0\d/i', $filename) ?
-'/media/Series/' :
-'/media/Films/';
 
-text
+
 
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Jellyfin.svg" width="150" alt="Jellyfin">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4pDM-XXQyYGYYz02A4qgyS9HgtFGZbW3xag&s" width="150" alt="Jellyfin">
   <p>🔄 Rafraîchissement automatique après téléchargement</p>
 </div>
