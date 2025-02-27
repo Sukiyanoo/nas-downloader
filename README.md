@@ -3,9 +3,8 @@
 # 🖥️ Système de Téléchargement Automatisé pour NAS
 
 *Interface web PHP pour organiser automatiquement des médias sur NAS avec intégration Jellyfin*  
-![PHP](https://img.shields.io/badge/PHP-7.4%2B-777BB4?logo=php) 
+![PHP](https://img.shields.io/badge/PHP-8%2B-777BB4?logo=php) 
 ![Apache](https://img.shields.io/badge/Apache-2.4-D22128?logo=apache) 
-![License](https://img.shields.io/badge/Licence-MIT-blue)
 
 </div>
 
@@ -62,15 +61,13 @@ sudo cp {index.php,download.php,style.css} /var/www/html/
 sudo chown -R www-data:www-data /var/www/html/
 sudo chmod -R 755 /chemin/montage/nas
 
-text
 
 ## 🔧 Configuration
 // download.php
-definir ('ALLOWED_IPS', ['192.168.1.*']); // 🔐 IPs autorisées
-definir ('JELLYFIN_TOKEN', 'your_token_here'); // 🔑 Token API
-definir ('MEDIA_PATH', '/chemin/montage/nas'); // 📁 Chemin NAS
+definir ('ALLOWED_IPS', ['192.168.1.*']); // 🔐 IPs autorisées ||
+definir ('JELLYFIN_TOKEN', 'your_token_here'); // 🔑 Token API ||
+definir ('MEDIA_PATH', '/chemin/montage/nas'); // 📁 Chemin NAS 
 
-text
 
 <div align="center">
   <h3>📜 Structure des fichiers</h3>
