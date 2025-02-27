@@ -68,9 +68,11 @@ sudo chmod -R 755 /chemin/montage/nas
 
 ## 🔧 Configuration
 // download.php
-definir ('ALLOWED_IPS', ['192.168.1.*']); // 🔐 IPs autorisées ||
-definir ('JELLYFIN_TOKEN', 'your_token_here'); // 🔑 Token API ||
-definir ('MEDIA_PATH', '/chemin/montage/nas'); // 📁 Chemin NAS 
+definir ('ALLOWED_IPS', ['192.168.1.*']); // 🔐 IPs autorisées
+
+definir ('JELLYFIN_TOKEN', 'your_token_here'); // 🔑 Token API
+
+definir ('MEDIA_PATH', '/chemin/montage/nas'); // 📁 Chemin NAS
 
 
 <div align="center">
