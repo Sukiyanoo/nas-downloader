@@ -56,13 +56,17 @@
 </div>
 
 1. Configuration du serveur
+ 
 sudo apt install apache2 php libapache2-mod-php php-curl wget nfs-common cifs-utils -y
 
-2. Déploiement des fichiers
+3. Déploiement des fichiers
+   
 sudo cp {index.php,download.php,style.css} /var/www/html/
 
-3. Configuration des permissions
+4. Configuration des permissions
+   
 sudo chown -R www-data:www-data /var/www/html/
+
 sudo chmod -R 755 /chemin/montage/nas
 
 
